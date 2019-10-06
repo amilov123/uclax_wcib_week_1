@@ -18,7 +18,10 @@ body {
   body h3 {
     color: #c8c8c8;
     margin-top: 10px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    border: 10px;
+    border-style: double;
+    border-color: white; }
   body p {
     color: #c8c8c8;
     padding-right: 30px; }
@@ -29,4 +32,9 @@ body {
     body a:hover {
       color: #c8c8c8; }
   body img {
-    border-radius: 0px; }
+    border: 10px;
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    border-style: double;
+    border-color: red; }

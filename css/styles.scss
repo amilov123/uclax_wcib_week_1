@@ -27,6 +27,9 @@ body {
     color: $text-color;
     margin-top: 10px;
     margin-bottom: 0px;
+    border: 10px;
+    border-style: double;
+    border-color: white;
   }
 
   p {
@@ -46,6 +49,11 @@ body {
   }
 
   img {
-    border-radius: 0px;
+    border: 10px;
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    border-style: double;
+    border-color: red;
   }
 }
